@@ -1,0 +1,89 @@
+*, body, html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14PX;
+}
+
+body {
+  padding: 16px;
+  margin: 16px;
+}
+
+.input {
+  padding: 12px 16px;
+  font-size: 16px;
+  border-radius: 32px;
+  border: 1px solid;
+  margin: 8px;
+  width: 75%;
+  border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+}
+
+.button {
+  padding: 12px 12px;
+  margin: 8px;
+  font-size: 16px;
+  border-radius: 32px;
+  border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+}
+
+.button:hover {
+  padding: 12px 12px;
+  margin: 8px 4px 8px 12px;
+  border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+}
+
+.button-icon {
+  padding: 8px;
+}
+
+textarea, select, input, button, .no-glow {
+  outline: none;
+}
+
+.custom-card {
+  /* Add shadows to create the "card" effect */
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid rgb(209, 209, 209);
+  transition: 0.3s;
+  margin-bottom: 8px;
+  padding: 16px;
+}
+
+/* On mouse-over, add a deeper shadow */
+
+.custom-card:hover {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid rgb(209, 209, 209);
+  transition: 0.3s;
+  margin-bottom: 8px;
+  padding: 8px 16px;
+}
+
+/* On mouse-over, add a deeper shadow */
+
+.card:hover {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.list-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  width: 100%;
+}
+
+.text {
+  width: 64%;
+  font-size: 16px;
+}
+
+.action {
+  width: 36%;
+}
