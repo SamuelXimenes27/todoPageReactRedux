@@ -9,13 +9,13 @@ import Col from 'react-bootstrap/Col';
 import FooterComponent from './template/FilterLinkTemplate';
 
 function App() {
-  let title = "Todo Application - {React, Redux, React-Bootstrap}";
+  let title = "TODO - Trabalho Engenharia de Software";
   return (
     <Container>
       <Row>
         <Col>
           <h3 style={{ fontWeight: 'bolder' }}>{title}</h3>
-          <h5>Developed by Manoj Pawar</h5>
+          <h5>Samuel Ximenes e Anderson Torres</h5>
           <hr></hr>
         </Col>
       </Row>
